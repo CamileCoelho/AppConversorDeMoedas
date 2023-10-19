@@ -54,8 +54,7 @@ export default function Conversao({ route }) {
     <View style={styles.container}>
       <Image
         source={require('../assets/coin.png')}
-        style={styles.image}
-      />
+        style={styles.image}/>
 
       <Text style={styles.sectionLabel}>Valor em {titulo.split('->')[0].trim()}</Text>
       
@@ -63,8 +62,7 @@ export default function Conversao({ route }) {
         placeholder={`Digite o valor em ${titulo.split('->')[0].trim()}`}
         value={inputValue}
         onChangeText={(text) => setInputValue(text)}
-        style={[styles.input]} 
-      />
+        style={[styles.input]}/>
 
       <Text style={styles.sectionLabel}>Valor em {titulo.split('->')[1].trim()}</Text>
       <Text style={styles.calculatedValue}>{calculatedValue}</Text>

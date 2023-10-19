@@ -1,5 +1,5 @@
-import { View, Text, Image, TouchableOpacity } from "react-native";
 import { FlatList } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 
 export default function Moedas({navigation}) {
    const listaContatos = [
